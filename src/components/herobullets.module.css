@@ -1,0 +1,95 @@
+.body{
+    font-family: Montserrat, sans-serif !important;
+}
+
+.custom {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.buttoncontainer {
+    width: 100%;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    white-space: nowrap;
+    /* Prevent buttons from wrapping to new lines */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.button {
+    display: inline-block;
+    /* Display buttons in a line */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    margin-right: 10px;
+    /* Add space between buttons */
+    background-color:#19dc49;
+
+    /* Button background color */
+    color: #ffffff;
+    /* Button text color */
+    border: none;
+    /* Remove button border */
+    border-radius: 5px;
+    /* Add button border radius */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    font-size: 12px;
+    /* Set button font size */
+    height: 2rem;
+
+}
+
+.cardstyles{
+    justify-content: space-between;
+}
+
+.cardstyles2{
+    justify-content: center;
+}
+
+.listtext{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.centerbuttons{
+    justify-content: center;
+}
+
+.third{
+    margin-top: 8rem;
+    
+}
+
+.fourth{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.margin{
+    margin-top: 50px;
+    background-color: #F0F4F8;
+}
+
+.spangradient {
+    width: 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90.81deg, #0c94e1 1.5%, #07d698 51.67%);
+    margin-bottom: 40px;
+    font-family: Montserrat, sans-serif !important;
+  }
+  
+  .fontfamily{
+    font-family: Montserrat, sans-serif !important;
+  }
+
+  @media (min-width: 1024px) {
+    .span-gradient {
+      display: inline;
+    }
+  }
