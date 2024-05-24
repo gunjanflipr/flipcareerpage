@@ -52,7 +52,7 @@ const Openposs = () => {
               Join Our Innovative Team
             </Title>
             <Text className={classes.fontfamily} color="gray" style={{ fontSize: '16px', fontWeight: 500, marginBottom: '20px', maxWidth: '400px' }}>
-              Welcome to the Flipr careers page! We're excited to find talented individuals passionate about technology and eager to grow their careers. Whether you're a student looking for an internship or a recent graduate seeking a full-time position, we have opportunities that will challenge and inspire you.
+              Welcome to the Flipr careers page! We&apos;re excited to find talented individuals passionate about technology and eager to grow their careers. Whether you&apos;re a student looking for an internship or a recent graduate seeking a full-time position, we have opportunities that will challenge and inspire you.
             </Text>
           </Container>
           <Grid gutter="sm" className={classes.margin}>
@@ -189,7 +189,7 @@ const Openposs = () => {
       </Container>
 
 
-         <img
+         <Image
           style={{ position: 'absolute', left: '50%', bottom: '0', transform: 'translateX(-50%)' }}
           src="https://shuffle.dev/flaro-assets/images/career/gradient2.svg"
           alt=""
