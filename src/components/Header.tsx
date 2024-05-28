@@ -1,6 +1,6 @@
 import { Container, Image, Overlay, Text, Title, Button, Group, Modal, NavLink, Box, Center, Card, List, SimpleGrid, Grid } from '@mantine/core';
 import classes from "./herobullets.module.css";
-
+import fliprnavbar from "../../public/fliprnavbar.png";
 function Header() {
 
 
@@ -8,6 +8,9 @@ function Header() {
     return (
 
         <>
+        <nav style={{height:"92px"}}>
+            <Image src="https://res.cloudinary.com/dehychcpr/image/upload/v1716899649/bgqewfypae1k7tr04ioe.png" height={50} width={80} alt='navbar' style={{width:"100%"}}/>
+        </nav>
             <Grid grow gutter="xs" className={classes.margin}>
  
                 <Grid.Col span={6}>
