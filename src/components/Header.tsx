@@ -9,13 +9,7 @@ function Header() {
 
         <>
             <Grid grow gutter="xs" className={classes.margin}>
-                {/* <div className={classes.night}>
-      <div className={classes.star}></div>
-      <div className={classes.star}></div>
-      <div className={classes.star}></div>
-      <div className={classes.star}></div>
-      <div className={classes.star}></div>
-    </div> */}
+ 
                 <Grid.Col span={6}>
                     <Container className={classes.div3}>
                         <Container className={classes.div4}>
