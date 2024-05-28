@@ -52,7 +52,7 @@ function FeatureSection() {
                         <Grid gutter="md">
                             <Grid.Col>
                                 <Title order={3} style={{ fontSize: '60px', fontWeight: 500, lineHeight: 1.1, marginBottom: '20px' }}>
-                                    Why Flipr.ai
+                                    Why Flipr
                                 </Title>
                                 <Container className={classes.buttoncontainer}>
 
